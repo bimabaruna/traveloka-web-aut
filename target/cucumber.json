@@ -1,0 +1,167 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-04T16:21:01.259Z",
+        "line": 6,
+        "name": "User Guest want to book car",
+        "description": "",
+        "id": "create-order;user-guest-want-to-book-car",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1214307000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click car rental",
+            "match": {
+              "location": "HomePageStep.userClickCarRental()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1640131700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select location car rental \"Jakarta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jakarta\"",
+                  "offset": 32
+                }
+              ],
+              "location": "HomePageStep.userSelectLocationCarRental(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300532300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select date two days from today",
+            "match": {
+              "location": "HomePageStep.userSelectDateDaysFromToday()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459514100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input end time",
+            "match": {
+              "location": "HomePageStep.userInputEndTimeAClock()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075398900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click search button",
+            "match": {
+              "location": "HomePageStep.userClickSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3194226900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user choose car",
+            "match": {
+              "location": "CarSearchResultStep.userChooseCar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126898400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user choose provider",
+            "match": {
+              "location": "CarSearchResultStep.userChooseProvider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1475882100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user pick up location in Rental office",
+            "match": {
+              "location": "CarDetailStep.userPickUpLocationInRentalOffice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7560161600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user drop off location other location",
+            "match": {
+              "location": "CarDetailStep.userDropOffLocationOtherLocation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5207508200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click button book now",
+            "match": {
+              "location": "CarDetailStep.userClickButtonBookNow()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Traveloka"
+          },
+          {
+            "name": "@guestBookCar"
+          }
+        ]
+      }
+    ],
+    "name": "create order",
+    "description": "",
+    "id": "create-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/TravelokaCarFlow.feature",
+    "tags": [
+      {
+        "name": "@Traveloka",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
